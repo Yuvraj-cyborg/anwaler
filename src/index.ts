@@ -1,2 +1,3 @@
-export { blockHeadlessBots } from "./detectors/headless";
+export { blockHeadlessBots,isHeadlessBrowser } from "./detectors/headless";
 export { logInfo } from "./utils/logger";
+export { getFingerprint } from "./detectors/fingerprint";
