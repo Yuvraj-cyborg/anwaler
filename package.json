@@ -1,6 +1,6 @@
 {
   "name": "anwaler",                  
-  "version": "0.1.2",                
+  "version": "0.2.0",                
   "description": "Detect and block headless bots and crawlers from the frontend.",
 
   "module": "dist/index.js",          
