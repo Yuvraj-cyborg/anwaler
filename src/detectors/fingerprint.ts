@@ -15,9 +15,9 @@ function getCanvasFingerprint(): string {
     ctx.fillStyle = "#f60";
     ctx.fillRect(125, 1, 62, 20);
     ctx.fillStyle = "#069";
-    ctx.fillText("anti-crawler", 2, 15);
+    ctx.fillText("anwaler", 2, 15);
     ctx.fillStyle = "rgba(102, 204, 0, 0.7)";
-    ctx.fillText("anti-crawler", 4, 17);
+    ctx.fillText("anwaler", 4, 17);
 
     const dataURL = canvas.toDataURL();
 

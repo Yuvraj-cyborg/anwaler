@@ -1,9 +1,9 @@
 # Anwaler
 
-[![npm version](https://img.shields.io/npm/v/anti-crawler.svg?style=flat-square)](https://www.npmjs.com/package/anti-crawler)
+[![npm version](https://img.shields.io/npm/v/anwaler.svg?style=flat-square)](https://www.npmjs.com/package/anwaler)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/anti-crawler/ci.yml?branch=main&style=flat-square)](https://github.com/yourusername/anti-crawler/actions)
-[![Downloads](https://img.shields.io/npm/dm/anti-crawler.svg?style=flat-square)](https://www.npmjs.com/package/anti-crawler)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Yuvraj-cyborg/anwaler/ci.yml?branch=main&style=flat-square)](https://github.com/Yuvraj-cyborg/anwaler/actions)
+[![Downloads](https://img.shields.io/npm/dm/anwaler.svg?style=flat-square)](https://www.npmjs.com/package/anwaler)
 
 ---
 

@@ -14,7 +14,7 @@ export function setupHoneytrap(): () => boolean {
   trap.style.opacity = "0";
   trap.setAttribute("aria-hidden", "true");
   trap.tabIndex = -1;
-  trap.id = "anti-crawler-honeytrap";
+  trap.id = "anwaler-honeytrap";
 
   function onTrapActivated() {
     honeytrapTriggered = true;
