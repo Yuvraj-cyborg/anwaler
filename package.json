@@ -1,21 +1,17 @@
 {
-  "name": "anwaler",                  
-  "version": "0.2.2",                
+  "name": "anwaler",
+  "version": "0.2.2",
   "description": "Detect and block headless bots and crawlers from the frontend.",
-
-  "module": "dist/index.js",          
-  "types": "dist/index.d.ts",         
-  "main": "dist/index.js",            
-  "type": "module",                  
-
-  "files": ["dist"],              
-
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": ["dist"],
   "scripts": {
     "build": "bun build src/index.ts --outdir dist",
     "test": "bun test",
     "docs": "typedoc"
   },
-
   "keywords": [
     "anti-crawler",
     "bot detection",
@@ -26,10 +22,8 @@
     "automation",
     "typescript"
   ],
-
   "author": "Yuvraj Biswal",
   "license": "MIT",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/Yuvraj-cyborg/anwaler.git"
@@ -38,15 +32,12 @@
   "bugs": {
     "url": "https://github.com/Yuvraj-cyborg/anwaler/issues"
   },
-
-  "private": false,                
-
+  "private": false,
   "devDependencies": {
-    "@types/bun": "latest",
-    "vitest": "^3.2.4",
-    "typedoc": "^0.25.0"
+    "@types/bun": "^1.2.19",
+    "typedoc": "^0.25.0",
+    "vitest": "^3.2.4"
   },
-
   "peerDependencies": {
     "typescript": "^5.9.2"
   }

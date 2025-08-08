@@ -1,5 +1,3 @@
-let humanInteracted = false;
-
 /**
  * Call this function early to start listening for user activity.
  * Returns a Promise that resolves to true if human interaction detected within timeout,
@@ -8,6 +6,8 @@ let humanInteracted = false;
  * @param timeoutMs - How long to wait for interaction before flagging (default 5000 ms)
  */
 export function detectHumanBehavior(timeoutMs = 5000): Promise<boolean> {
+  let humanInteracted = false;
+
   return new Promise((resolve) => {
     function onInteraction() {
       humanInteracted = true;
