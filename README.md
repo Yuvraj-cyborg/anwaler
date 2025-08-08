@@ -1,4 +1,4 @@
-# anti-crawler
+# Anwaler
 
 [![npm version](https://img.shields.io/npm/v/anti-crawler.svg?style=flat-square)](https://www.npmjs.com/package/anti-crawler)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
@@ -9,7 +9,7 @@
 
 ## Overview
 
-**anti-crawler** is a lightweight, dependency-free frontend library designed to detect and block headless browsers, automated crawlers, and bots. It helps protect your website by identifying suspicious browser behaviors and blocking unwanted traffic early on the client side.
+**Anwaler** is a lightweight, dependency-free frontend library designed to detect and block headless browsers, automated crawlers, and bots. It helps protect your website by identifying suspicious browser behaviors and blocking unwanted traffic early on the client side.
 
 ---
 
@@ -30,4 +30,10 @@
 Install via npm:
 
 ```bash
-npm install anti-crawler
+npm install anwaler
+```
+
+Install via bun:
+
+```bash
+bun add anwaler
